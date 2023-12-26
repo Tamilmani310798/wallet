@@ -20,10 +20,11 @@ npm install
 
 ## 1. create Wallet [http://localhost:5000/wallet/create_wallet](http://localhost:5000/wallet/create_wallet)
 
-```json
-Method : POST
+```text
+Method - POST
+```
 
-Request:
+```json
 {
     "walletName":"self_wallet"
 }
