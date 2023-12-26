@@ -30,10 +30,11 @@ Request:
 ```
 ## 2. credit/debit: [http://localhost:5000/wallet/<wallet_id>/transaction](http://localhost:5000/wallet/<wallet_id>/transaction)
 
-```json
-Method : POST
+```text
+Method - POST
+```
 
-Request:
+```json
 {
     "type":"CREDIT",
     "amount":"100"
@@ -46,18 +47,18 @@ Request:
 ```
 ## 3. For transaction cancellation [http://localhost:5000/wallet/<wallet_id>/transaction/<transaction_id>](http://localhost:5000/wallet/<wallet_id>/transaction/<transaction_id>)
 
-```json
-Method : DELETE
+```text
+Method - DELETE
 ```
 
 ## 4. Current balance [http://localhost:5000/wallet/<wallet_id>](http://localhost:5000/wallet/<wallet_id>)
-```json
-Method : GET
+```text
+Method - GET
 ```
 ## 5. Passbook [http://localhost:5000/wallet/<wallet_id>/transaction](http://localhost:5000/wallet/<wallet_id>/transaction)
 
-```json
-Method : GET
+```text
+Method - GET
 ```
 ## Contributing
 
